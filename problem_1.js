@@ -19,7 +19,7 @@ function solve(nums,k){
         else hmap.set(nums[i],1)
         ans.push(hmap.size)
     }
-    console.log(ans)   
+    return ans   
 }
 solve([1,1,1,1,2,3,4],4)
 
